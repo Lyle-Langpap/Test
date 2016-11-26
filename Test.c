@@ -12,10 +12,10 @@ void Test_Range_Float(const char *title, const float a, const float b, const flo
 
 	if (fabs(a - b) <= range)
 	{
-		printf(ANSI_FG_GREEN "%f is within %f of %f" ANSI_DEFAULT "\n", a, range, b);
+		printf(ANSI_BOLD ANSI_FG_GREEN "%f is within %f of %f" ANSI_DEFAULT "\n", a, range, b);
 	}
 	else
 	{
-		printf(ANSI_FG_RED "%f is not within %f of %f" ANSI_DEFAULT "\n", a, range, b);
+		printf(ANSI_BOLD ANSI_FG_RED "%f is not within %f of %f" ANSI_DEFAULT "\n", a, range, b);
 	}
 }
