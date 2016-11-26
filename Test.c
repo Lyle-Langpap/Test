@@ -1,5 +1,8 @@
 #include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
 
+#include "ANSI/ANSI.h"
 #include "Test.h"
 
 
